@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: "Rubik";
+    box-sizing: border-box;
+    background-image: url(images/Rectangle.svg),url(upperRectangle.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% + 150px ),0px;
+    background-position-y: 400px,0px;
+}
+
+
+.phone{
+    margin:64px;
+    border-radius: 30px;
+    background-color: #F5F3F7;
+    display: grid;
+    width:60.78%;
+    border:11px solid white;
+    box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.25);
+    position: relative;
+}
+.activity{
+    padding:30px 16px 12px 16px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    border-radius: 20px 20px 6px 6px;
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 50%;
+    border:1px solid #ffff;
+    width:24px;
+    box-sizing: border-box;
+}
+h2{
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.samueltxt p{
+    color: #D99EFF;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+}
+.avatar,.samueltxt{
+    margin-left:8px;
+}
+.combinedshapes{
+    margin-left: auto;
+    
+}
+
+.mytxt p{
+    color: #9341C8;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px; 
+}
+.mytxt{
+    background-color: #EEE5F4;
+    border-radius: 10px 10px 10px 4px;
+    padding:6px 8px;
+    margin-right: 93px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#frsttxt{
+    margin-top: 11px;
+}
+.photos img{
+   border-radius:10px;
+   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+   width: 17.545%;
+}
+.photos{
+    margin-top: 16px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+}
+.whitetxt{
+    padding:6px 8px;
+    margin-right: 8px;
+    margin-left: 93px;
+    background-color: white;
+    border-radius: 10px 10px 4px 10px;
+    margin-top: 8px;
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    justify-self: end;
+}
+.whitetxt p{
+    color: #6E5D7E;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px
+}
+.price{
+    border-radius: 10px 10px 10px 4px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%); 
+    box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.05);
+    margin-top:8px;
+    padding:16px 10px 10px 8px;
+    display:flex;
+    align-items: center;
+    margin-right: 61px;
+    margin-left: 8px;
+}
+.price p{
+    color: #FFF;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px; 
+    margin-top: 1.5px;
+    margin-left: 8px;
+}
+h3{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 11px;
+    margin-left: auto;
+    margin-top: 1px;
+}
+form{
+    margin:16px 8px 10px 8px;
+    max-width: 100%;
+    position: relative;
+}
+input{
+    padding:5px 4px 4px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 16.954px;
+    background: #FFF;
+    border:none;
+    position: relative;
+    height:33px;
+}
+::placeholder{
+    color: #C5C9CC;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.07px;
+}
+form svg{
+    position: absolute;
+    top: 4.5px;
+    right: 4px;
+}
+.whiterec{
+    height: 18px;
+    position: absolute;
+    top: 0px;
+    background-color:  #FFF;
+    width: 54.26%;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius: 0px 0px 14px 14px;
+    z-index: 1;
+}
+.maintxt h1{
+    color: #3E2753;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 64px;
+}
+.maintxt p{
+    color: #A39DA9;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 24px 32px 64px 32px;
+    position: relative;
+}
+
+
+@media(min-width:1440px){
+body{
+    display: flex;
+    flex-direction: row;
+    background-image: url(desktopRectangle.svg),url(UpperdesktopRectangle.svg);
+    background-position-x: 100%,0px;
+    background-position-y: 119px,0px;
+}
+.phone{
+    margin:0px;
+    margin-left: 363px;
+}
+.maintxt{
+    margin-right: 260px;
+    margin-left: 125px;
+}
+.maintxt h1,.maintxt p{
+    text-align: start;
+}
+.maintxt h1{
+     margin: 0px;
+}
+.maintxt p{
+    margin:0px;
+    margin-top:24px;
+}
+.whiterec {
+    height: 19px;
+    position: absolute;
+    top: -1px;
+}
+}
